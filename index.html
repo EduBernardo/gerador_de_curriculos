@@ -23,7 +23,7 @@
             <fieldset>
             <legend class="title">Dados Básicos</legend>
             <label for="fname">Nome</label>
-            <input  class="area-text" id="fname" type="text"
+            <input  class="area-text" id="fname" type="text" autofocus
             placeholder="Digite seu Nome Aqui" minlength="5" maxlength="30" required>
             <br>
             <label for="sname">Sobrenome</label>
@@ -41,7 +41,7 @@
             placeholder="Digite sua cidade Aqui" minlength="5" maxlength="30" required>
             <br>
             <label for="civest">Estado Cívil</label>
-            <select name="" id="civest">
+            <select class="state-menu" name="" id="civest">
                 <option value="">Solteiro</option>
                 <option value="">Casado</option>
                 <option value="">Viúvo</option>
@@ -64,39 +64,55 @@
             <fieldset>
                 <legend class="title">Formacão Acadêmica</legend>
                 <div>
-                <label for="">Instituição</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Curso</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Semestre</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
+                <label for="instituição1">Instituição</label>
+                <input class="area-text"  type="text" name="" id="instituição1" placeholder="">
+                <label for="curso1">Curso</label>
+                <input class="area-text"  type="text" name="" id="curso1" placeholder="">
+                <label for="semestre1">Semestre</label>
+                <input class="area-text"  type="text" name="" id="semestre1" placeholder="">
             </div>
             <div>
-                <label for="">Instituição</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Curso</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Semestre</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
+                <label for="instituição2">Instituição</label>
+                <input class="area-text"  type="text" name="" id="instituição2" placeholder="">
+                <label for="curso2">Curso</label>
+                <input class="area-text"  type="text" name="" id="curso2" placeholder="">
+                <label for="semestre2">Semestre</label>
+                <input class="area-text"  type="text" name="" id="semestre2" placeholder="">
             </div>
             <div>
-                <label for="">Instituição</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Curso</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
-                <label for="">Semestre</label>
-                <input class="area-text"  type="text" name="" id="" placeholder="">
+                <label for="instituição3">Instituição</label>
+                <input class="area-text"  type="text" name="" id="instituição3" placeholder="">
+                <label for="curso3">Curso</label>
+                <input class="area-text"  type="text" name="" id="curso3" placeholder="">
+                <label for="semestre3">Semestre</label>
+                <input class="area-text"  type="text" name="" id="semestre3" placeholder="">
             </div>
+            </fieldset>
+            <!-- Experiencias anteriores -->
+            <fieldset>
+                <legend>Experiencias Anteriores</legend>
+                <div>
+                    <label for="">Empresa</label>
+                    <input type="text" placeholder="" name="" id="">
+                    <br>
+                    <label for="">Quanto tempo ficou</label>
+                    <input type="text" placeholder="" name="" id="">
+                    <br>
+                    <label for="">Cargo</label>
+                    <input type="text" placeholder="" name="" id="">
+                    <br>
+                    <textarea name="" id="" cols="30" rows="1" placeholder="Atribuicoes"></textarea>
+                </div>
             </fieldset>
             <!-- Cursos Complementares -->
             <fieldset>
                 <legend class="title">Cursos Complementares</legend>
                     <div>
-                        <label for="">Instituição</label>
-                        <input class="area-text"  type="text" name="" id="" placeholder="">
-                        <label for="">Curso</label>
-                        <input class="area-text"  type="text" name="" id="" placeholder="">
-                        <label for="">Semestre</label>
+                        <label for="cursoc1">Instituição</label>
+                        <input class="area-text"  type="text" name="" id="cursoc1" placeholder="">
+                        <label for="cursoc1">Curso</label>
+                        <input class="area-text"  type="text" name="" id="cursoc1" placeholder="">
+                        <label for="cursoc1">Semestre</label>
                         <input class="area-text"  type="text" name="" id="" placeholder="">
                     </div>
                     <div>
@@ -105,6 +121,38 @@
                         <label for="">Curso</label>
                         <input class="area-text"  type="text" name="" id="" placeholder="">
                         <label for="">Semestre</label>
+                        <input class="area-text"  type="text" name="" id="" placeholder="">
+                    </div>
+            </fieldset>
+            <!-- IDIOMAS -->
+            <fieldset>
+                <legend class="title">Idiomas</legend>
+
+                <label for="idioma1"> Idioma - Nivel - Modo</label>
+                <input type="text" name="" id="idioma1" placeholder="Ingles - intemrediario - Leitura">
+                <br>
+                <label for="idioma2"> Idioma - Nivel - Modo</label>
+                <input type="text" name="" id="idioma2" placeholder="Ingles - intemrediario - Leitura">
+
+            </fieldset>
+
+            <!-- TRABALHOS VOLUNTARIOS -->
+            <fieldset>
+                <legend class="title">Trabalhos Voluntarios</legend>
+                    <div>
+                        <label for="insttrabvolu1">Instituição</label>
+                        <input class="area-text"  type="text" name="" id="insttrabvolu1" placeholder="">
+                        <label for="cursoc1">O que fez</label>
+                        <input class="area-text"  type="text" name="" id="cursoc1" placeholder="">
+                        <label for="cursoc1">Duracao</label>
+                        <input class="area-text"  type="text" name="" id="" placeholder="">
+                    </div>
+                    <div>
+                        <label for="insttrabvolu1">Instituição</label>
+                        <input class="area-text"  type="text" name="" id="cursoc1" placeholder="">
+                        <label for="cursoc1">O que fez</label>
+                        <input class="area-text"  type="text" name="" id="cursoc1" placeholder="">
+                        <label for="cursoc1">Duracao</label>
                         <input class="area-text"  type="text" name="" id="" placeholder="">
                     </div>
             </fieldset>
